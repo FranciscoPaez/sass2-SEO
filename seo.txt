@@ -1,0 +1,3 @@
+Agregue etiqueta meta description y meta keywords.
+Titulo referido al contenido de la página.
+Utilice un solo H1.

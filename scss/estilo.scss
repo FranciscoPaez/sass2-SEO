@@ -1,0 +1,40 @@
+@import "var", "footer", "header", "contenido", "maps", "mixin";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;   /* 10px = 1rem */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(../img/bg.jpg);
+}
+
+.container{
+    width: 90%;
+    max-width: 80rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+.footer__copy{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+
+

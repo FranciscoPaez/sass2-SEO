@@ -1,0 +1,26 @@
+footer{
+    background-color: $bg-head-foot;
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    a{
+        position: relative;
+        color: $color--white;
+        font-size: 25px;
+        transition: 0.3s;
+        transition-property: transform;
+
+        &:hover{
+            transform: scale(1.9);
+        }
+
+        &:not(:last-child){
+            margin-right: 60px;
+        }
+    }
+}
+

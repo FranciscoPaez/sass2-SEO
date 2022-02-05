@@ -1,0 +1,17 @@
+$mapRedes:(facebook:#006847,instagram:#CE1126,twitter:#fff);
+
+@each $red, $color in $mapRedes {
+    .#{$red}--link {
+        color: $color;
+    }
+}
+
+$estilo:(
+    color: #ccc,
+    tamFuente:30px,
+);
+
+.footer__copy{
+    background-color: map-get($estilo , color );
+    font-size: map-get($estilo , tamFuente );
+}
